@@ -12,11 +12,15 @@ class RadioTabBarBtn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(vertical: context.height * 0.009),
+      padding: EdgeInsets.symmetric(
+        vertical: context.height * 0.009,
+      ),
       alignment: .center,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
-        color: isSelected ? AppColors.mainColor : AppColors.transparent,
+        color: isSelected
+            ? AppColors.mainColor
+            : AppColors.transparent,
       ),
       child: Text(
         text,

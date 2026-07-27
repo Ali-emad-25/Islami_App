@@ -8,7 +8,6 @@ class RadioItemWidget extends StatelessWidget {
   String title;
   bool isPlayed;
   bool isMuted;
-
   RadioItemWidget({
     super.key,
     required this.title,

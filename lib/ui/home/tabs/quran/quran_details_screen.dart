@@ -94,9 +94,8 @@ class _QuranDetailsScreenState extends State<QuranDetailsScreen> {
                           itemCount: versesList.length,
                         )
                       : Padding(
-                          padding: EdgeInsets.symmetric(
-                            horizontal: context.width * 0.05,
-                          ),
+                    padding: EdgeInsets.symmetric(
+                        horizontal: context.width * 0.05),
                           child: SingleChildScrollView(
                             child: Text(
                               verses,

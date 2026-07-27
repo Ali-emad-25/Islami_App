@@ -69,9 +69,7 @@ class _QuranTabState extends State<QuranTab> {
                     bottom: context.height * 0.01,
                   ),
                   child: Text(
-                    'Suras List',
-                    style: AppFonts.white15BoldNaskhArabic,
-                  ),
+                      'Suras List', style: AppFonts.white15BoldNaskhArabic),
                 ),
                 Padding(
                   padding: EdgeInsets.symmetric(
