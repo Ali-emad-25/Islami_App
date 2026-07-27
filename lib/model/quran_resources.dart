@@ -113,7 +113,7 @@ class QuranResources {
     "المسد",
     "الإخلاص",
     "الفلق",
-    "الناس",
+    "الناس"
   ];
   static List<String> englishQuranSuraList = [
     "Al-Fatiha",
@@ -229,7 +229,7 @@ class QuranResources {
     "Al-Masad",
     "Al-Ikhlas",
     "Al-Falaq",
-    "An-Nas",
+    "An-Nas"
   ];
   static List<String> ayaNumberList = [
     '7',
@@ -345,6 +345,6 @@ class QuranResources {
     '5',
     '4',
     '5',
-    '6',
+    '6'
   ];
 }

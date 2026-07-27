@@ -13,14 +13,13 @@ Future<void> main() async {
   runApp(
     ChangeNotifierProvider(
       create: (context) => MostRecentProvider(),
-      child: MyApp(isFirstTime: isFirstTime),
+      child: MyApp(isFirstTime: isFirstTime,),
     ),
   );
 }
 
 class MyApp extends StatelessWidget {
   final bool isFirstTime;
-
   const MyApp({super.key, required this.isFirstTime});
 
   @override

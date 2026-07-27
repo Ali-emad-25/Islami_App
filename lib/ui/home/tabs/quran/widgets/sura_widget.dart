@@ -9,13 +9,8 @@ class SuraWidget extends StatelessWidget {
   String ayaNumber;
   int index;
 
-  SuraWidget({
-    super.key,
-    required this.suraNameEnglish,
-    required this.suraNameArabic,
-    required this.ayaNumber,
-    required this.index,
-  });
+  SuraWidget(
+      {super.key, required this.suraNameEnglish, required this.suraNameArabic, required this.ayaNumber, required this.index});
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +23,9 @@ class SuraWidget extends StatelessWidget {
             Image.asset(AppAssets.bgSuraName),
             Text(
               '${index + 1}',
-              style: AppFonts.white14BoldCairo.copyWith(fontSize: 16),
+              style: AppFonts.white14BoldCairo.copyWith(
+                fontSize: 16,
+              ),
             ),
           ],
         ),
@@ -36,12 +33,21 @@ class SuraWidget extends StatelessWidget {
           spacing: context.height * 0.005,
           crossAxisAlignment: .start,
           children: [
-            Text(suraNameEnglish, style: AppFonts.white20BoldCairo),
-            Text('$ayaNumber Verses', style: AppFonts.white14BoldCairo),
+            Text(
+              suraNameEnglish,
+              style: AppFonts.white20BoldCairo,
+            ),
+            Text(
+              '$ayaNumber Verses',
+              style: AppFonts.white14BoldCairo,
+            ),
           ],
         ),
         Spacer(),
-        Text(suraNameArabic, style: AppFonts.white20BoldCairo),
+        Text(
+          suraNameArabic,
+          style: AppFonts.white20BoldCairo,
+        ),
       ],
     );
   }

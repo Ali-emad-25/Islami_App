@@ -17,7 +17,6 @@ class MostRecentWidget extends StatefulWidget {
 
 class _MostRecentWidgetState extends State<MostRecentWidget> {
   late MostRecentProvider provider;
-
   @override
   void initState() {
     // TODO: implement initState

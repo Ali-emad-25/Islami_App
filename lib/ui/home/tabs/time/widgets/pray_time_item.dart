@@ -6,7 +6,6 @@ import 'package:islami/utils/app_style.dart';
 
 class PrayTimeItem extends StatelessWidget {
   int index;
-
   PrayTimeItem({super.key, required this.index});
 
   List<Pray> pray = [
@@ -34,8 +33,8 @@ class PrayTimeItem extends StatelessWidget {
       child: Column(
         mainAxisAlignment: .spaceEvenly,
         children: [
-          Text(pray[index].prayName, style: AppFonts.white15BoldNaskhArabic),
-          Text(pray[index].prayTime, style: AppFonts.white36BoldCairo),
+          Text(pray[index].prayName, style: AppFonts.white15BoldNaskhArabic,),
+          Text(pray[index].prayTime, style: AppFonts.white36BoldCairo,),
           Text(pray[index].amOrPm, style: AppFonts.white15BoldNaskhArabic),
         ],
       ),

@@ -40,9 +40,7 @@ class _RadioTabState extends State<RadioTab> {
                 tabs: [
                   RadioTabBarBtn(text: 'Radio', isSelected: selectedIndex == 0),
                   RadioTabBarBtn(
-                    text: 'Reciters',
-                    isSelected: selectedIndex == 1,
-                  ),
+                      text: 'Reciters', isSelected: selectedIndex == 1),
                 ],
               ),
             ),
@@ -61,8 +59,7 @@ class _RadioTabState extends State<RadioTab> {
                           ),
                           RadioItemWidget(title: 'Radio Ahmed Al-trabulsi'),
                           RadioItemWidget(
-                            title: 'Radio Addokali Mohammad Alalim',
-                          ),
+                              title: 'Radio Addokali Mohammad Alalim'),
                           SizedBox(height: context.height * 0.005),
                         ],
                       )
@@ -75,3 +72,4 @@ class _RadioTabState extends State<RadioTab> {
     );
   }
 }
+
