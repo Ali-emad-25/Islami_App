@@ -85,7 +85,7 @@ During this project, I improved my skills in:
 
 Flutter Developer
 
-- LinkedIn: linkedin.com/in/ali-emad-flutter
+- LinkedIn: https://linkedin.com/in/ali-emad-flutter
 - GitHub: https://github.com/Ali-emad-25
 ---
 
