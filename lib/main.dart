@@ -18,6 +18,7 @@ Future<void> main() async {
   );
 }
 
+
 class MyApp extends StatelessWidget {
   final bool isFirstTime;
   const MyApp({super.key, required this.isFirstTime});
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+
+    debugShowCheckedModeBanner: false,
       initialRoute: isFirstTime
           ? AppRoutes.introRouteName
           : AppRoutes.homeRouteName,
